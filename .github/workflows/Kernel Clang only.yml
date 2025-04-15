@@ -6,27 +6,27 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/yuzumi86/kernel_realme_even'
+        default: 'https://github.com/KAGA-KOKO/kernel-oppo6765'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
         required: true
-        default: 'OSS-RUI2'
+        default: 'oss_non-ksu'
          
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
         required: true
-        default: 'even_defconfig'
+        default: 'oppo6765_19451_defconfig'
 
       KBUILD_USER:
         description: 'Enter the custom username build available in your kernel'
         required: true
-        default: 'cumaRull'
+        default: 'fuck'
         
       CLANG_URL:
         description: 'Clang Url'
         required: true
-        default: 'https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240227-release/Clang-19.0.0git-20240227.tar.gz'
+        default: 'https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/tags/android-9.0.0_r3/clang-4691093.tar.gz'
       WITH_KERNEL_SU:
         description: 'With kernelsu?, Dont activate it if the kernel doesnt support it '
         required: true
@@ -34,7 +34,7 @@ on:
       ZIP_NAME:
         description: 'Name for the zip file'
         required: true
-        default: 'TridentNothDeath-Even' 
+        default: 'kernel-koko' 
       ANYKERNEL_URL:
         description: 'YOUR ANYKERNEL LINK'
         required: true
